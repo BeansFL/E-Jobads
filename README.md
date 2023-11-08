@@ -2,7 +2,7 @@
 
 Welcome to E-JobAds, a customizable job advertisement system for FiveM, Compatible with both ESX and QBCore frameworks, E-JobAds offers a seamless integration for a multitude of configs.
 
-[🎥 Check out our Showcase Video](https://youtu.be/3W2hpUcC6pc)
+[🎥 Check out our Showcase Video](https://www.youtube.com/watch?v=9xbXwnbx9Es)
 
 ## 📌 Table of Contents
 
