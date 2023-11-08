@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  user-select: none;
+  -webkit-user-drag: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  letter-spacing: -0.035vh;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  /* background-image: url(../assets/img/background.png); */
+  background-size: cover;
+}

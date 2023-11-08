@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Diamond Studios</title>
+  <link rel="shortcut icon" href="https://cdn.discordapp.com/attachments/927383070775070811/1064180292308451388/Logo.png" type="image/x-icon">
+  <link href="https://fonts.cdnfonts.com/css/montserrat" rel="stylesheet">
+  <link rel="stylesheet" href="./styles/settings.css">
+  <link rel="stylesheet" href="./styles/main.css">
+</head>
+
+<body>
+  <div class="main-container">
+    <div class="background-blur"></div>
+    <div class="inner-container">
+      <p class="container-title">Neue Stellenausschreibung - <span id="job">Undefined</span></p>
+      <img src="./assets/img/post.png" class="post-image img-1">
+      <img src="./assets/img/post.png" class="post-image img-2">
+      <div class="input-container-box">
+        <div class="input-container-wrap">
+          <div class="input-fields">
+            <input type="text" class="input-box" id="title" placeholder="Titel eingeben...">
+            <textarea class="input-box" placeholder="Beschreibung eingeben..." id="description"></textarea>
+          </div>
+          <div class="payment-box">
+            <div class="payment-selection-wrap">
+              <div class="payment-selection" id="cash">
+                <p>Barzahlung</p>
+              </div>
+              <div class="payment-selection" id="bank">
+                <p>Bankzahlung</p>
+              </div>
+            </div>
+            <div class="payment-btn">
+              <p>Bezahlen</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p class="exit-btn">Abbrechen</p>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+  <script src="./src/functions.js"></script>
+  <script src="./src/index.js"></script>
+  <!-- <script src="./src/devtest.js"></script> -->
+  <script src="./src/custom.js"></script> <!-- Custom JavaScript file -->
+</body>
+
+</html>
